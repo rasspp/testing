@@ -58,7 +58,7 @@ body::-webkit-scrollbar {
 }
 
 .container-overlay {
-   top: -100vh;
+   top: -120vh;
    animation: 7s slideDown forwards;
    animation-delay: 5s;
 }
