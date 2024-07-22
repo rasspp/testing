@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fogoff</title>
+      <link rel="stylesheet" href="style.css" />
+      <style></style>
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+
+   <body>
+      <section class="relative h-[45vh] sm:h-[67vh] md:h-[85vh] lg:h-[95vh] xl:h-[130vh] overflow-hidden">
+         <!-- Background video -->
+         <div class="video-container absolute bottom-0">
+            <video
+               class="min-w-[150vw] -ml-[25vw] -mb-[8vh] sm:-mb-[10vh] md:-mb-[12vh] lg:-mb-[17vh] xl:-mb-[23vh]"
+               src="https://cdn.shopify.com/videos/c/o/v/db69afb4d83c4c25a33d1200485dbd92.webm"
+               autoplay
+               muted
+               loop
+            ></video>
+         </div>
+
+         <!-- Overlay -->
+         <div
+            class="container-overlay flex justify-center items-center flex-col absolute w-full pt-16 sm:pt-24 md:pt-32 lg:pt-40 xl:pt-52 px-12 sm:px-32 md:px-38 lg:px-40 xl:px-52"
+         >
+            <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/hero-image.png?v=1721341578" alt="Overlay Image" class="w-10/12 sm:w-full" />
+            <p class="imb-plex-sans text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl px-7 sm:px-5 md:px-7 xl:px-10 text-center mt-5">
+               FogOff provides a supplement to help with these symptoms via a unique blend of ingredients. Stay in touch about our progress and receive 20% off
+               when we launch.
+            </p>
+
+            <!-- Email -->
+            <div
+               class="relative w-9/12 flex justify-center items-center h-[1.8rem] sm:h-[2rem] md:h-[2.5rem] lg:h-[3rem] xl:h-[3.5rem] mt-5 sm:mt-10 md:mt-16 lg:mt-20 xl:mt-24"
+            >
+               <input
+                  type="email"
+                  class="rounded-full w-full h-full bg-[#f1f1f1] pl-3 sm:pl-4 md:pl-6 lg:pl-8 xl:pl-10 focus:outline-none focus:ring-0 text-xs sm:text-sm md:text-base xl:text-xl"
+                  placeholder="Email"
+               />
+               <div
+                  class="absolute top-0 right-0 pr-1 sm:right[0.50rem] h-full py-1 flex justify-center items-center w-[3rem] sm:w-[4rem] md:w-[5rem] xl:w-[6rem]"
+               >
+                  <button type="submit" class="bg-white h-full w-full rounded-full open-sans font-[400] text-xs sm:text-sm md:text-base xl:text-xl text-center">
+                     send
+                  </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Clouds -->
+         <div class="cloud cloud-bl top-[0vh] md:top-[50vh] left-[-25%]"></div>
+         <div class="cloud cloud-tr top-[-45vh] md:top-[-55%] right-[-47%] md:right-[-35%]"></div>
+         <div class="cloud cloud-l-jumbo top-[-40vh] md:top-[-20%] left-[10%] md:left-[0%]"></div>
+         <div class="cloud cloud-r-jumbo top-[-35vh] md:top-[15%] right-[-35vw] md:right-[-25%]"></div>
+      </section>
+
+      <!-- Logos Section -->
+      <section class="px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 w-screen h-fit my-5 md:my-16">
+         <div class="py-2 sm:py-6 md:py-8 xl:py-10">
+            <!-- title -->
+            <h2 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl playfair-display font-bold text-center sm:text-start">
+               What Trusted News Outlets Are Saying
+            </h2>
+
+            <!-- logos -->
+            <div class="logos flex justify-between items-center h-[2rem] sm:h-[5rem] md:h-[6.3rem] mt-5 *:h-full">
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_34.png?v=1720829151" alt="" />
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_35.png?v=1720829151" alt="" />
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_36.png?v=1720829151" alt="" />
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_37.png?v=1720829151" alt="" />
+            </div>
+         </div>
+         <!-- end logos -->
+      </section>
+
+      <!-- Product Section -->
+      <section class="px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 w-screen h-fit md:my-16">
+         <div class="bg-[#E0DFDF4D] py-10 rounded-2xl md:rounded-[48px]">
+            <!-- iamges Product -->
+            <div class="flex justify-center items-center h-fit md:mt-5 gap-5 *:h-full *:-mx-[3.5rem] *:w-40 *:md:w-80">
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_1.png?v=1720829152" alt="Weed fog off - Lime Yuzu" />
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_2.png?v=1720829152" alt="Total Calm Rosela" />
+               <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_3.png?v=1720829152" alt="Dighestwell - Mangoginger" />
+            </div>
+
+            <!-- Discount Price -->
+            <div class="discount-price flex justify-center items-center px-5 sm:px-10 md:px-40 -mt-8 md:-mt-16">
+               <div class="w-full border border-[#0000002B]"></div>
+               <p class="ibm-plex-sans font-bold flex flex-nowrap text-base md:text-4xl px-2 md:px-5">
+                  $75 <span class="ml-3 text-[#777777] line-through"> $89.97 </span>
+               </p>
+               <div class="w-full border border-[#0000002B]"></div>
+            </div>
+
+            <!-- CTA -->
+            <div class="flex justify-center items-center flex-col text-center md:mt-10">
+               <h2 class="text-[20px] sm:text-[24px] md:text-[3.5rem] playfair-display italic">Mix & Match Your Perfect Bundle and Save 20%</h2>
+               <p class="ibm-plex-sans text-[14px] sm:text-[16px] md:text-2xl font-semibold capitalize px-5 md:px-0 mt-2">
+                  pay only $2.08 per day, compared to $3 per day for similar healthy energy drinks
+               </p>
+
+               <!-- Button -->
+               <button
+                  class="bg-[#FFCB41] lg:w-[29rem] h-[2.7rem] md:h-[4.1rem] rounded-[48px] mt-5 md:mt-12 mb-4 text-base md:text-2xl border border-black font-semibold px-7 md:px-0"
+               >
+                  Save 20% Now
+               </button>
+
+               <div class="flex items-center gap-4">
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_40.png?v=1720829151" alt="hand" />
+                  <p class="font-semibold text-[12px] md:text-[18px]">Not Liking It? Get a full refund</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_40.png?v=1720829151" alt="hand" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Fuck Image Section -->
+      <section class="px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 w-screen h-fit my-16">
+         <!-- Container Content -->
+         <div class="bg-[#E0DFDF4D] rounded-2xl md:rounded-[48px] flex flex-col md:flex-row px-5 md:px-0 py-7 md:py-0">
+            <!-- Left Content -->
+            <div class="w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 flex flex-col md:pl-20 md:pt-28">
+               <!-- top left -->
+               <div class="">
+                  <h2 class="playfair-display text-[28px] md:text-4xl">Optimized for Function</h2>
+                  <p class="text-[14px] md:text-base italic">
+                     Perfect for smokers and especially beneficial for edible users, as edibles often cause a stronger hangover.
+                  </p>
+               </div>
+
+               <!-- bottom left desktop (min sm) -->
+               <div class="hidden md:block w-10/12 uppercase mt-12 text-[14px] *:md:text-base *:border-b *:border-[#0000004D] *:py-1">
+                  <p>Key Electrolytes</p>
+                  <p>Essential Vitamins</p>
+                  <p>Focus Enhancing</p>
+                  <p>No Sugar</p>
+                  <p>All Natural</p>
+                  <p>Gluten Free</p>
+                  <p>Vegan</p>
+               </div>
+
+               <!-- bottom left mobile & tablet (max md) -->
+               <div class="w-full md:hidden uppercase mt-8 text-[14px] *:md:text-base grid grid-cols-2 gap-5">
+                  <div class="*:border-b-2 *:border-[#5957574d] *:py-1">
+                     <p>Key Electrolytes</p>
+                     <p>Essential Vitamins</p>
+                     <p>Focus Enhancing</p>
+                  </div>
+                  <div class="*:border-b-2 *:border-[#5957574d] *:py-1">
+                     <p>No Sugar</p>
+                     <p>All Natural</p>
+                     <p>Vegan</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- fuck Image -->
+            <img
+               src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Isolation_Mode_cabb4bde-27c9-44e7-a2ea-6483b766769c.png?v=1720829152"
+               alt="fogoff image"
+               class="w-[32.25rem] -mt-10 md:mt-0"
+            />
+
+            <!-- Right Content -->
+            <div class="w-4/12 pl-10 pr-[3rem] flex flex-col pt-28">
+               <!-- top right -->
+               <div class="">
+                  <h2 class="playfair-display text-[28px] md:text-4xl">With Targeted Ingredients</h2>
+                  <p class="text-[14px] text-base italic mt-3">
+                     Daily FogOff is designed to clear mental fog, boost your energy, and restore your focus for a productive day.
+                  </p>
+               </div>
+
+               <!-- bottom right -->
+               <div class="mt-12">
+                  <p class="text-[14px]">
+                     Vitamin D, Vitamin B12, Omega-3 Fatty Acids (EPA + DHA), Magnesium, Vitamin C, Ginger Root, Potassium, 5-HTP, N-Acetylcysteine (NAC),
+                     Adaptogens (Ashwagandha, Rhodiola) Acetyl-L-Carnitine, Natural Lime Flavor, Natural Yuzu Flavor, Citric Acid, Sodium Bicarbonate and
+                     natural flavoring and sweetener
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- benefit section -->
+      <section class="px-5 sm:px-10 md:px-16 lg:px-20 xl:px-24 w-screen h-fit my-16">
+         <div class="grid grid-cols-1 md:grid-cols-3 *:pr-16 mt-24">
+            <div>
+               <h2 class="text-[28px] text-4xl playfair-display pr-20">Clean. Tested. Ingredients.</h2>
+               <p class="mt-5 text-[14px] text-base ibm-plex-sans">
+                  Absolutely No No Added Sugar. No Gluten. No Dairy. No Glucose. No Sucrose. No Lactose.No Artificial Colors. No Artificial Sweeteners. No Bull
+                  Shit
+               </p>
+            </div>
+            <div>
+               <h2 class="text-[28px] text-4xl playfair-display pr-20">Planet Friendly.</h2>
+               <p class="mt-5 text-[14px] text-base ibm-plex-sans">
+                  we're all about keeping it green and clean! We're on a mission to leave the smallest carbon footprint possible. From eco-friendly materials to
+                  sustainable practices, we're doing our part to protect our planet while helping you clear the fog
+               </p>
+            </div>
+            <div>
+               <h2 class="text-[28px] text-4xl playfair-display pr-20">Belief in People.</h2>
+               <p class="mt-5 text-[14px] text-base ibm-plex-sans">
+                  We believe in the awesome power of people! Inclusivity is our jam, making sure everyone feels welcome and heard. We embrace diversity and
+                  create a space where everyone can vibe together. At FogOff, you're part of the family!
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <!-- How to use Section -->
+      <section class="px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit my-16">
+         <!-- container -->
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 pt-12">
+            <!-- left image -->
+            <div
+               class="bg-[url('https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_2.png?v=1720942889')] rounded-2xl md:rounded-[48px] flex flex-col justify-center items-center bg-cover h-[35rem] bg-center"
+            >
+               <div class="icons flex justify-center items-center gap-2">
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/ObNlAB.png?v=1720829151" alt="nauseus" />
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="leaf" 8rem]" />
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/lVZYkz.png?v=1720829151" alt="tired" />
+               </div>
+               <p class="text-white w-10/12 text-center text-base md:text-2xl">
+                  The weed hangover might not have been studied deeply and proven scientifically, but we all too well know it is real!
+                  <br />
+                  It has become our quest to get you and me up and running again! We got you!
+               </p>
+            </div>
+
+            <!-- right image -->
+            <div
+               class="bg-[url('https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_3.png?v=1720942889')] rounded-2xl md:rounded-[48px] flex flex-col justify-center items-center bg-cover h-[35rem] bg-center"
+            >
+               <div class="w-8/12 flex justify-start items-center py-4 border-t-2 border-[#00000066]">
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/kro7qP_1.png?v=1720942888" alt="glass" class="mx-0" />
+                  <p class="uppercase ibm-plex-sans text-base md:text-2xl">Grab a Glass of Water</p>
+               </div>
+               <div class="w-8/12 flex justify-start items-center py-4 border-t-2 border-[#00000066]">
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_10.png?v=1720942888s" alt="water" class="mx-3" />
+                  <p class="uppercase ibm-plex-sans text-base md:text-2xl">Add a Tablet</p>
+               </div>
+               <div class="w-8/12 flex justify-start items-center py-4 border-y-2 border-[#00000066]">
+                  <img
+                     src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_11_81ba16bd-9003-4b29-be3c-7587c1471a03.png?v=1721616788"
+                     alt="brain"
+                     class="mx-2"
+                  />
+                  <p class="uppercase ibm-plex-sans text-base md:text-2xl">Enjoy your clear brain</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Subscribe Section -->
+      <section class="px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit my-16">
+         <!-- container -->
+         <div
+            class="bg-[url('https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_16.png?v=1720937446')] py-12 px-16 rounded-2xl md:rounded-[48px] grid grid-cols-1 md:grid-cols-2"
+         >
+            <!-- left content -->
+            <div class="text-white">
+               <h2 class="playfair-display text-[28px] md:text-6xl">Clear the Fog with 20% Off!</h2>
+               <p class="text-base md:text-2xl my-10">
+                  Join the FogOff community today and enjoy a 20% discount on your first purchase! Don't miss out on this exclusive offer—sign up now and start
+                  experiencing relief from weed hangovers.
+               </p>
+
+               <!-- sub email -->
+               <div class="h-12 relative">
+                  <input
+                     class="hidden md:block w-full h-full rounded-[48px] pl-5 focus:ring-0 focus:outline-none bg-[#f1f1f1] text-[#302D2C] text-[18px]"
+                     type="email"
+                     placeholder="Email"
+                  />
+                  <input
+                     class="md:hidden w-full h-full rounded-[48px] pl-5 focus:ring-0 focus:outline-none bg-[#f1f1f1] text-[#302D2C] text-[18px]"
+                     type="email"
+                     placeholder="Enter your email"
+                  />
+                  <div
+                     class="absolute top-0 right-1 sm:right[0.50rem] xl:right-2 h-full py-1 -mr-1 flex justify-center items-center w-[3rem] sm:w-[4rem] md:w-[5rem] xl:w-[6rem]"
+                  >
+                     <button
+                        type="submit"
+                        class="bg-white text-black h-full w-full rounded-full open-sans font-[400] text-xs sm:text-sm md:text-base xl:text-xl text-center"
+                     >
+                        send
+                     </button>
+                  </div>
+               </div>
+            </div>
+
+            <!-- right content -->
+            <div class="text-white flex justify-end items-center">
+               <div class="w-8/12 flex flex-col items-start justify-start">
+                  <div class="w-full flex items-center justify-start">
+                     <div class="w-2/12 flex justify-center items-center">
+                        <img class="w-6/12" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_12.png?v=1720829151" alt="money" />
+                     </div>
+                     <p class="text-[14px] md:text-2xl">Save <span class="font-bold">20%</span></p>
+                  </div>
+                  <div class="w-full flex items-center justify-start">
+                     <div class="w-2/12 flex justify-center items-center">
+                        <img class="w-full" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_13.png?v=1720954161" alt="box" />
+                     </div>
+                     <p class="text-[14px] md:text-2xl">Free Shipping, Always</p>
+                  </div>
+                  <div class="w-full flex items-center justify-start">
+                     <div class="w-2/12 flex justify-center items-center">
+                        <img class="w-6/12" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_14.png?v=1720954160" alt="left arrow" />
+                     </div>
+                     <p class="text-[14px] md:text-2xl">Money Back Guarentee</p>
+                  </div>
+                  <div class="w-full flex items-center justify-start">
+                     <div class="w-2/12 flex justify-center items-center">
+                        <img class="w-full" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_15.png?v=1720954161" alt="stop" />
+                     </div>
+                     <p class="text-[14px] md:text-2xl">Cancel Anytime</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Buying Products -->
+      <section class="px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit my-16">
+         <!-- container -->
+         <div class="mt-32">
+            <!-- header -->
+            <div class="pl-5">
+               <h2 class="text-[28px] md:text-4xl playfair-display font-bold">Meet the Magic Family</h2>
+               <p class="text-[16px] md:text-2xl inter">Add focus with vitamins, adaptogens, antioxidants, and natural energy boosters to sharpen your day</p>
+            </div>
+
+            <!-- container content -->
+            <div class="mt-16 grid grid-cols-3 gap-12 overflow-x-auto">
+               <!-- card -->
+               <div class="bg-[#f1f1f1] rounded-2xl md:rounded-[48px] p-12 pt-0 flex flex-col justify-center items-center">
+                  <img class="w-11/12" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_1.png?v=1720829152" alt="product" />
+
+                  <!-- ratting -->
+                  <div class="rating w-full flex items-center -mt-16">
+                     <div class="flex items-center w-fit mr-3">
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                     </div>
+
+                     <p class="ibm-plex-sans text-base">4.9 / 1842</p>
+                  </div>
+
+                  <!-- CTA product -->
+                  <h3 class="w-full text-[14px] md:text-[1.35rem] font-bold ibm-plex-sans mt-4 mb-3 leading-5">
+                     Fog Off
+                     <br />
+                     30 Effervescent Tablets
+                  </h3>
+                  <p class="w-full ibm-plex-sans text-[11.5px] md:text-[0.9rem]">
+                     Clear that day after fog off and rehydrate, remineralize and refocus with a yuzu-lime drink.
+                  </p>
+
+                  <!-- buy product -->
+                  <div class="flex gap-3 mt-10 w-full">
+                     <!-- quantity -->
+                     <div class="grid grid-cols-3 w-4/12">
+                        <button class="rounded-l-[48px] border border-black bg-white">-</button>
+                        <button class="border-y border-black bg-white">1</button>
+                        <button class="rounded-r-[48px] border border-black bg-white">+</button>
+                     </div>
+
+                     <!-- button buy -->
+                     <button
+                        class="w-8/12 h-10 flex justify-center items-center bg-[#ffcb41] border border-black rounded-2xl md:rounded-[48px] text-[12px] md:text-base font-semibold"
+                     >
+                        Buy now
+                        <span class="hidden md:block"> $29.99 </span>
+                     </button>
+                  </div>
+               </div>
+               <!-- end card -->
+
+               <!-- card -->
+               <div class="bg-[#f1f1f1] rounded-2xl md:rounded-[48px] p-12 pt-0 flex flex-col justify-center items-center">
+                  <img class="w-11/12" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_1.png?v=1720829152" alt="product" />
+
+                  <!-- ratting -->
+                  <div class="rating w-full flex items-center -mt-16">
+                     <div class="flex items-center w-fit mr-3">
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                     </div>
+
+                     <p class="ibm-plex-sans text-base">4.7 /324</p>
+                  </div>
+
+                  <!-- CTA product -->
+                  <h3 class="w-full text-[14px] md:text-[1.35rem] font-bold ibm-plex-sans mt-4 mb-3 leading-5">
+                     Total Calm
+                     <br />
+                     30 Effervescent Tablets
+                  </h3>
+                  <p class="w-full ibm-plex-sans text-[11.5px] md:text-[0.9rem]">
+                     Everyday tables to keep you relaxed and sharp for all that life throws at you.
+                  </p>
+
+                  <!-- buy product -->
+                  <div class="flex gap-3 mt-10 w-full">
+                     <!-- quantity -->
+                     <div class="grid grid-cols-3 w-4/12">
+                        <button class="rounded-l-[48px] border border-black bg-white">-</button>
+                        <button class="border-y border-black bg-white">1</button>
+                        <button class="rounded-r-[48px] border border-black bg-white">+</button>
+                     </div>
+
+                     <!-- button buy -->
+                     <button
+                        class="w-8/12 h-10 flex justify-center items-center bg-[#ffcb41] border border-black rounded-2xl md:rounded-[48px] text-base font-semibold"
+                     >
+                        Buy now
+                        <span class="hidden md:block"> $29.99 </span>
+                     </button>
+                  </div>
+               </div>
+               <!-- end card -->
+
+               <!-- card -->
+               <div class="bg-[#f1f1f1] rounded-2xl md:rounded-[48px] p-12 pt-0 flex flex-col justify-center items-center">
+                  <img class="w-11/12" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/FogOff_tranparent_1.png?v=1720829152" alt="product" />
+
+                  <!-- ratting -->
+                  <div class="rating w-full flex items-center -mt-16">
+                     <div class="flex items-center w-fit mr-3">
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                        <img class="w-6" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="" />
+                     </div>
+
+                     <p class="ibm-plex-sans text-base">4.6 /917</p>
+                  </div>
+
+                  <!-- CTA product -->
+                  <h3 class="w-full text-[14px] md:text-[1.35rem] font-bold ibm-plex-sans mt-4 mb-3 leading-5">
+                     Digest Well
+                     <br />
+                     30 Effervescent Tablets
+                  </h3>
+                  <p class="w-full ibm-plex-sans text-[11.5px] md:text-[0.9rem]">
+                     For those who like their edibles but want to have their gut and brain sharp the next day
+                  </p>
+
+                  <!-- buy product -->
+                  <div class="flex gap-3 mt-10 w-full">
+                     <!-- quantity -->
+                     <div class="grid grid-cols-3 w-4/12">
+                        <button class="rounded-l-[48px] border border-black bg-white">-</button>
+                        <button class="border-y border-black bg-white">1</button>
+                        <button class="rounded-r-[48px] border border-black bg-white">+</button>
+                     </div>
+
+                     <!-- button buy -->
+                     <button
+                        class="w-8/12 h-10 flex justify-center items-center bg-[#ffcb41] border border-black rounded-2xl md:rounded-[48px] text-base font-semibold"
+                     >
+                        Buy now
+                        <span class="hidden md:block"> $29.99 </span>
+                     </button>
+                  </div>
+               </div>
+               <!-- end card -->
+            </div>
+         </div>
+      </section>
+
+      <!-- astronot section -->
+      <section class="px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit my-16">
+         <!-- container -->
+         <div class="bg-[#f6f6f6] rounded-2xl md:rounded-[48px] flex flex-col md:flex-row h-[30.7rem] mt-32">
+            <!-- left content -->
+            <div>
+               <div
+                  class="bg-[url('https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_38_4d41c89a-8052-44b7-b8e1-59c3507933dd.png?v=1721615930')] bg-contain h-full bg-center flex justify-end items-center bg-no-repeat p-28 pt-40 pr-0"
+               >
+                  <h2 class="text-[28px] md:text-4xl w-[23.1rem] playfair-display font-semibold">
+                     We Go Where No One Else Has Gone Before:
+                     <br />
+                     <span class="italic font-normal"> Fog Off vs. Other Focus Enhancing Products </span>
+                  </h2>
+               </div>
+            </div>
+
+            <!-- right content -->
+            <div class="w-full flex gap-0 items-end pr-16 pb-28 justify-end ibm-plex-sans">
+               <!-- left -->
+               <!-- start desktop version -->
+               <div class="hidden md:flex *:py-1.5 w-fit flex-col items-end mr-10 *:text-base">
+                  <p>Cannabis-Focused Relief</p>
+                  <p>Targeted Ingredients</p>
+                  <p>Science-Backed Solutions</p>
+                  <p>Sustainable</p>
+                  <p>Daily Serving Cost</p>
+               </div>
+               <!-- end desktop version -->
+               <!-- start mobile version -->
+               <div class="md:hidden *:py-1.5 w-fit flex flex-col items-end mr-10 *:text-[12px]">
+                  <h6 class="text-base font-semibold">Cannabis-Focused Relief:</h6>
+                  <p>Targeted Ingredients</p>
+                  <p>Science-Backed Solutions</p>
+                  <p>Sustainable</p>
+                  <p>Daily Serving Cost</p>
+               </div>
+               <!-- end mobile version -->
+
+               <!-- center -->
+               <div class="w-fit bg-[#00622D1A] rounded-[12px] mr-5 py-3 px-5">
+                  <img class="mx-auto mb-10 mt-2" src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Isolation_Mode.svg?v=1721623368" alt="logo" />
+
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Unique Ingredients</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">20+</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Lab Tested</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Carbon Neutral</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">$1.00</p>
+                  </div>
+               </div>
+
+               <!-- right -->
+               <div class="w-fit bg-[#00622D1A] rounded-[12px] p-3">
+                  <h3 class="text-[#DA0909] mb-10 ibm-plex-sans text-[1.75rem] uppercase mx-auto font-bold w-fit">Them</h3>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">None, One Size Fits All</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Made in China</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Lab Tested</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929"
+                        alt="ceklist"
+                     />
+                     <p class="ibm-plex-sans">Oh the plastic :-(</p>
+                  </div>
+                  <div class="flex gap-1 py-1">
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/checkmark-square-02.svg?v=1721615929" alt="ceklist" />
+                     <p class="ibm-plex-sans">$3.00 +</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit my-16">
+         <!-- container -->
+         <div class="mt-28">
+            <!-- header -->
+            <div class="pl-5 mb-16">
+               <h2 class="text-4xl playfair-display flex gap-3 items-center font-bold mb-2">
+                  Do Believe the hype <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_44.png?v=1720937445" alt="music logo" />
+               </h2>
+               <p class="text-2xl inter">500+ 5 star reviews!</p>
+            </div>
+
+            <!-- content -->
+            <div>
+               <div class="bg-[#E0DFDF4D] rounded-2xl md:rounded-[48px] p-12">
+                  <div class="flex *:w-7">
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="rating" />
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="rating" />
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="rating" />
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="rating" />
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/TAews3.png?v=1720829151" alt="rating" />
+                  </div>
+
+                  <!-- coment -->
+                  <p class="ibm-plex-sans text-2xl leading-[42px] font-light mt-10">
+                     I would always get days of restlss limbs after smoking a bunch of weed in the weekend. My friend recommended me FogOff, and although I was
+                     sceptic at first I definitely feel a whole lot better the day after. Even my boss noticed lol :-)
+                  </p>
+
+                  <!-- user -->
+                  <div class="mt-5 flex gap-5">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Ellipse_39_91a117ee-82c5-41de-8538-11c77f4e90e5.png?v=1721615929"
+                        alt="photo profil"
+                     />
+                     <div>
+                        <h6 class="ibm-plex-sans text-xl">Madge Goodwin</h6>
+                        <p class="text-[#00000066] text-base">Verified User</p>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- pagination -->
+               <div class="w-full flex justify-center items-center gap-5 mt-12">
+                  <button class="border border-black rounded-full flex justify-center items-center p-3 hover:justify-start">
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Component_4.svg?v=1721615929" alt="arrow left" />
+                  </button>
+                  <button class="h-full border border-black py-3 px-10 rounded-[48px] text-2xl open-sans font-semibold">Read all reviews</button>
+                  <button class="border border-black rounded-full flex justify-center items-center p-3">
+                     <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Component_4_1.svg?v=1721616311" alt="arrow right" />
+                  </button>
+               </div>
+               <!-- end pagination -->
+            </div>
+         </div>
+      </section>
+
+      <!-- Facts  -->
+      <section class="relative px-5 sm:px-7 md:px-10 lg:px-12 xl:px-16 w-screen h-fit">
+         <!-- container -->
+         <div class="pt-20 pb-24">
+            <!-- ===== background ====== -->
+            <img
+               class="-z-10 absolute -bottom-44 -right-10"
+               src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/image_5.png?v=1720937446"
+               alt="grass"
+            />
+
+            <!-- header -->
+            <h2 class="playfair-display text-4xl mb-5 font-bold">Facts Often Asked</h2>
+            <!-- content -->
+            <div class="*:py-2 *:border-b *:border-[#00000046] *:flex *:justify-between *:text-base">
+               <div>
+                  <p>What are the working ingredients?</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>Is it scientifically tested</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>What flavor is FogOff</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>Do you ship worldwide?</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>Can I get my money back</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>Who are you?</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+               <div>
+                  <p>Where is FogOff Made</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0885/6030/4413/files/link-forward.svg?v=1721615929" alt="forward" />
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
