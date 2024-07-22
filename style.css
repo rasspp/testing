@@ -36,33 +36,29 @@ body::-webkit-scrollbar {
 
 .cloud-bl {
    transform: scale(2);
-   background: url("https://cdn.shopify.com/s/files/1/0885/6030/4413/files/awan_bawah.png?v=1721146636") no-repeat center/contain;
    animation: fadeInLeft 6s forwards ease-in-out;
    animation-delay: 3s;
 }
 .cloud-tr {
    transform: scale(1.2);
-   background: url("https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Awan_2.png?v=1721188286") no-repeat center/contain;
    animation: fadeInRight 6s forwards ease-in-out;
    animation-delay: 3s;
 }
 .cloud-l-jumbo {
    transform: scale(1.8);
-   background: url("https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Awan_2.png?v=1721188286") no-repeat center/contain;
    animation: fadeOut 6s forwards ease-in-out;
    animation-delay: 3s;
    opacity: 1;
 }
 .cloud-r-jumbo {
    transform: scale(1.8);
-   background: url("https://cdn.shopify.com/s/files/1/0885/6030/4413/files/Awan_2.png?v=1721188286") no-repeat center/contain;
    animation: fadeOut 6s forwards ease-in-out;
    animation-delay: 3s;
    opacity: 1;
 }
 
 .container-overlay {
-   top: -120vh;
+   top: -100vh;
    animation: 7s slideDown forwards;
    animation-delay: 5s;
 }
